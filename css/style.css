@@ -21,7 +21,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
+  padding: 20px 24px;
   top: 0;
   left: 0;
   width: 100%;
@@ -49,7 +49,7 @@ li {
 .contact-btn {
   background-color: #2cca9f;
   color: #fff;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2.5rem;
   border-radius: 27px;
   border: none;
 }
@@ -58,6 +58,13 @@ li {
   color: #fff;
   padding: 1rem 1.5rem;
   border-radius: 27px;
+}
+.image-navbar {
+  width: 134px;
+  height: 53px;
+}
+.btn-color {
+  color: #ffffff;
 }
 .contact-btn-mob {
   display: none;
@@ -80,12 +87,15 @@ li {
   max-width: 649px;
   color: #ffffff;
   padding-bottom: 2rem;
+  padding-top: 6rem;
+  /* line-height: 1rem; */
 }
 .scale-one-p {
   font-size: 18px;
   max-width: 621px;
   color: #ffffff;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
+  line-height: 2rem;
 }
 .trust-one {
   font-size: 30px;
@@ -100,11 +110,14 @@ li {
 }
 
 .hire-one {
-  font-size: 38px;
   color: #20b089;
 }
 .trust-two {
   font-size: 20px;
+}
+.react-image {
+  width: 105px;
+  height: 93px;
 }
 .main-number {
   box-shadow: 5px 5px #ffffff;
@@ -124,6 +137,10 @@ li {
   margin: auto;
   padding-bottom: 2rem;
 }
+.image-trust {
+  width: 107px;
+  height: 107px;
+}
 .main-static {
   background: #fcfbfc 0% 0% no-repeat padding-box;
   padding-bottom: 3rem;
@@ -137,11 +154,13 @@ li {
   font-size: 17px;
   max-width: 580px;
   padding-bottom: 3rem;
+  text-align: start;
 }
 .great-one {
   text-align: center;
   padding-bottom: 2rem;
   color: #2b225c;
+  padding-top: 4rem;
 }
 .great-two {
   text-align: center;
@@ -152,6 +171,7 @@ li {
 .maquee-main {
   text-align: center;
   padding-bottom: 4rem;
+  padding-top: 3rem;
 }
 .overview-one {
   display: grid;
@@ -201,8 +221,8 @@ li {
 }
 .next-p-one {
   color: #444444;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .start-button {
   display: flex;
@@ -210,7 +230,7 @@ li {
   margin: auto;
   background: #02bf8c;
   border: none;
-  padding: 10px 10px 10px 10px;
+  padding: 0px 10px 0px 10px;
   border-radius: 33px;
   text-align: center;
   align-items: center;
@@ -219,8 +239,8 @@ li {
   background: transparent linear-gradient(290deg, #2b225c 0%, #100727 100%) 0%
     0% no-repeat padding-box;
   padding: 70px;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
 }
 .other-p {
   justify-content: center;
@@ -255,6 +275,42 @@ li {
   margin: auto;
   margin: 0px 2rem;
 }
+.glimpse-main-p-one {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.glimpse-main-p {
+  text-align: center;
+  color: #444444;
+  padding-bottom: 2rem;
+}
+.apps-main {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-left: 4rem;
+}
+.inner-maib {
+  display: flex;
+  gap: 20px;
+  padding: 1rem;
+}
+.maib-p-one {
+  font-size: 20px;
+  color: #2b225c;
+  padding-bottom: 1rem;
+}
+.maib-p-two {
+  font-size: 13px;
+  color: #444444;
+  max-width: 371px;
+}
+.maib-image {
+  width: 105px;
+  height: 93px;
+}
 .picked-inner {
   box-shadow: 0px 3px 20px #bebebe1a;
   background-color: #ffffff;
@@ -282,6 +338,7 @@ li {
 }
 .car-main {
   background: #fcfbfc;
+  padding: 50px;
 }
 .professional-main {
   padding-bottom: 5rem;
@@ -294,15 +351,15 @@ li {
 .app-main {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
-  text-align: center;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  /* text-align: center; */
+  /* margin-right: 3rem;
+  margin-left: 3rem; */
 }
 .auto-inner-p {
   font-size: 20px;
   max-width: 257px;
   text-align: start;
-  margin: auto;
+
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -315,8 +372,7 @@ li {
 .auto-outer-p {
   font-size: 16px;
   max-width: 343px;
-  text-align: start;
-  margin: auto;
+
   padding-top: 1rem;
 }
 .more-main {
@@ -324,9 +380,7 @@ li {
   color: #02bf8c;
   text-align: start;
   max-width: 98px;
-  margin: auto;
-
-  /* margin: auto; */
+  margin-left: 1rem;
 }
 .auto-inner-p-one {
   max-width: 254px;
@@ -349,7 +403,7 @@ li {
   text-align: center;
   max-width: 746px;
   margin: auto;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 .main-method {
   background: transparent linear-gradient(290deg, #2b225c 0%, #100727 100%) 0%
@@ -401,6 +455,10 @@ li {
   text-align: center;
   padding-bottom: 2rem;
 }
+.js-inner {
+  font-size: 13px;
+  color: #ffffff;
+}
 .our-main-p-two {
   max-width: 850px;
   text-align: start;
@@ -425,7 +483,7 @@ li {
   background: #02bf8c;
   border: none;
   border-radius: 33px;
-  padding: 20px;
+  padding: 15px;
 }
 .start-inner {
   background: url(../image/sec-4-bg.svg) no-repeat center center/cover;
@@ -551,7 +609,7 @@ li {
 .button-next {
   display: flex;
   gap: 10px;
-  padding: 20px 10px 20px 10px;
+  padding: 13px 10px 13px 10px;
   border-radius: 33px;
   text-align: center;
   align-items: center;
@@ -562,14 +620,24 @@ li {
 .vetting-main {
   display: grid;
   grid-template-columns: 2fr 2fr;
+
   gap: 30px;
   text-align: center;
-  margin-left: 2rem;
+  margin-left: 6rem;
 }
 .quote-button {
   text-align: center;
   border: 1px solid #02bf8c;
   border-radius: 33px;
+  width: 421px;
+  height: 55px;
+}
+.button-quote {
+  text-align: center;
+  border: 1px solid #02bf8c;
+  border-radius: 33px;
+  width: 211px;
+  height: 55px;
 }
 .image-next {
   width: 482px;
@@ -698,6 +766,7 @@ li {
   color: #ffffff;
   max-width: 174px;
   padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 .contact-footer-p {
   font-size: 15px;
@@ -716,7 +785,9 @@ li {
   border: none;
   border-radius: 33px;
   background: #02bf8c;
-  padding: 10px 20px 10px 10px;
+  padding: 19px 34px 19px 22px;
+  width: 338px;
+  height: 55px;
 }
 .val-header {
   display: flex;
@@ -736,8 +807,27 @@ li {
     margin-right: 0rem;
     margin-left: 0rem;
   }
+  .next-main {
+    margin: 1rem;
+  }
+  .vetting-main {
+    margin-left: 0rem;
+  }
   .app-main-image {
     width: 289px;
+  }
+  .team-one {
+    margin: 1rem;
+  }
+  .need-inner {
+    display: flex;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .image-trust {
+    width: 71px;
+    height: 107px;
   }
 }
 
@@ -746,11 +836,73 @@ li {
     text-align: center;
     margin: auto;
   }
+  .image-next {
+    width: 351px;
+    height: 258px;
+  }
+  .image-chair {
+    width: 326px;
+    height: 279px;
+  }
+  .need-inner {
+    display: block;
+    gap: 10px;
+    padding: 1rem;
+    text-align: center;
+  }
+  .image-trust {
+    text-align: start;
+    align-items: start;
+  }
+  .just-button {
+    display: flex;
+    gap: 10px;
+    background: #02bf8c;
+    border: none;
+    border-radius: 33px;
+    padding: 8px;
+  }
+  .main-react {
+    display: block;
+    gap: 30px;
+    padding: 2rem;
+  }
+  .button-quote {
+    width: 171px;
+    height: 51px;
+  }
+  .app-main {
+    grid-template-columns: 2fr 2fr;
+    text-align: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+  .profess-main {
+    grid-template-columns: 2fr 2fr;
+  }
+  .create-main {
+    font-size: 26px;
+  }
+  .button-next {
+    gap: 3px;
+    padding: 8px 8px 10px 8px;
+  }
   .app-main-image {
     width: 202px;
   }
   .picked-inner {
     margin: 1rem;
+  }
+  .overview-one {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-bottom: 6rem;
+    text-align: center;
+    margin: 1rem;
+  }
+  .section-3-images {
+    width: 309px;
+    height: 373px;
   }
   .nav-link {
     color: #2cca9f;
@@ -798,6 +950,12 @@ li {
     display: block;
     border: none;
   }
+  .period-image {
+    width: 290px;
+    height: 330px;
+
+    margin: 1rem;
+  }
   .who-image-main {
     grid-template-columns: 2fr 2fr 2fr;
     margin: 0rem 3rem 0rem 3rem;
@@ -806,8 +964,17 @@ li {
   .main-footer {
     grid-template-columns: 2fr 2fr;
   }
+  .inner-maib {
+    display: block;
+  }
+  .apps-main {
+    margin-left: 0rem;
+  }
   .team-one {
     margin: 1rem;
+  }
+  .banner {
+    padding: 55px;
   }
 }
 
@@ -815,11 +982,49 @@ li {
   .overview-one {
     display: block;
   }
+  .react-p-one {
+    font-size: 15px;
+  }
+  .who-main-image {
+    margin: 1rem;
+  }
+  .auto-outer-p {
+    font-size: 13px;
+
+    padding-top: 0rem;
+  }
+  .image-next {
+    width: 371px;
+  }
+  .store-inner {
+    padding: 1px;
+    margin: 1rem;
+  }
+  .image-chair {
+    width: 363px;
+    height: 258px;
+  }
   .team-one {
     display: block;
     grid-template-columns: 2fr 2fr;
     text-align: center;
     padding-bottom: 4rem;
+  }
+  .temp-outer {
+    margin: 1rem;
+  }
+  .main-method {
+    padding: 45px;
+  }
+  .apps-main {
+    display: block;
+  }
+  .inner-maib {
+    text-align: center;
+  }
+  .val-header {
+    display: block;
+    gap: 20px;
   }
   .image-chair {
     width: 429px;
@@ -828,13 +1033,12 @@ li {
   .quote-button {
     padding: 1rem;
   }
-  .banner {
-    background: url(../image/section-1-bg.svg) no-repeat center center/cover;
-    padding: 0px;
-    position: relative;
-    padding-top: 7rem;
-    padding-bottom: 9rem;
+  .quote-button {
+    width: 269px;
+    height: 49px;
+    margin: 2rem;
   }
+
   .strat-main {
     font-size: 20px;
   }
@@ -853,11 +1057,9 @@ li {
   .can-two {
     font-size: 16px;
   }
-  .next-p-one {
-    font-size: 8px;
-  }
+
   .create-main {
-    font-size: 15px;
+    font-size: 25px;
   }
   .start-button {
     padding: -4px 10px 10px 10px;
@@ -867,11 +1069,8 @@ li {
   }
   .who-image-main {
     display: block;
-    padding: 6rem;
-    text-align: center;
-    align-items: center;
+
     /* margin: 0rem; */
-    gap: 2rem;
   }
 
   .who-inner-image-eight {
@@ -927,11 +1126,81 @@ li {
   .ui-main {
     padding: 30px;
   }
+  .button-header {
+    display: flex;
+    gap: 5px;
+    border: none;
+    border-radius: 33px;
+    background: #02bf8c;
+    padding: 16px 25px 4px 11px;
+    width: 307px;
+  }
+  .main-footer {
+    text-align: center;
+  }
+  .contact-footer {
+    max-width: 292px;
+  }
+  .contact-footer-two {
+    max-width: 253px;
+  }
+  .contact-footer-one {
+    max-width: 261px;
+  }
+  .banner {
+    padding: 17px;
+  }
+  .scale-one-p {
+    padding-bottom: 1rem;
+  }
 }
 @media (max-width: 375px) {
   .quality-one {
     margin-right: 0rem;
     margin-left: 0rem;
+  }
+  .inner-react {
+    display: block;
+  }
+  .app-main-image {
+    width: 134px;
+  }
+  .next-p-one {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .react-image {
+    text-align: center;
+    align-items: center;
+  }
+  .start-inner {
+    padding: 48px;
+    /* margin: 2rem 2rem 2rem 2rem; */
+  }
+  .quality-one {
+    padding: 41px;
+  }
+  .comp-one {
+    font-size: 29px;
+  }
+  .next-p {
+    font-size: 2px;
+  }
+  .quote-button {
+    width: 221px;
+    height: 41px;
+    margin: 1rem;
+  }
+  .button-header {
+    width: 248px;
+    height: 50px;
+  }
+  .scale-one {
+    font-size: 27px;
+    max-width: 649px;
+    color: #ffffff;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
   }
   .section-3-images {
     width: 378px;
@@ -939,10 +1208,7 @@ li {
   }
   .who-image-main {
     display: block;
-    padding: 9rem;
-    text-align: center;
-    align-items: center;
-    /* margin: 0rem; */
+
     gap: 8rem;
   }
   .is-main {
@@ -986,8 +1252,29 @@ li {
     width: 339px;
     height: 282px;
   }
+  .contact-btn-mob {
+    padding: 1rem 1rem;
+  }
   .ui-main {
     padding: 8px;
+  }
+  .main-comp {
+    margin: 1rem;
+  }
+  .vetting-main {
+    display: block;
+  }
+  .button-next {
+    margin: 1rem;
+  }
+  .main-react {
+    text-align: center;
+  }
+  .banner {
+    padding: 18px;
+  }
+  .scale-one-p {
+    padding-bottom: 1rem;
   }
 }
 @media (max-width: 320px) {
@@ -995,13 +1282,50 @@ li {
     margin-right: 0rem;
     margin-left: 0rem;
   }
+  .start-inner {
+    padding: 12px;
+    /* margin: 2rem 2rem 2rem 2rem; */
+  }
+  .our-main-p-two {
+    text-align: center;
+  }
+  .quality-one {
+    padding: 23px;
+  }
+  .bar {
+    width: 18px;
+    height: 1px;
+  }
+  .image-navbar {
+    width: 105px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+  }
+  .main-method {
+    padding: 19px;
+  }
+  .comp-one {
+    font-size: 23px;
+  }
   .section-3-images {
     width: 332px;
     height: 373px;
   }
+  .banner {
+    padding: 19px;
+  }
   .period-image {
     width: 287px;
   }
+  .scale-one-p {
+    padding-bottom: 1rem;
+  }
+  .scale-one {
+    font-size: 25px;
+    padding-bottom: 1rem;
+  }
+
   .strat-main {
     font-size: 18px;
   }
