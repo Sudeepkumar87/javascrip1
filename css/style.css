@@ -46,6 +46,24 @@ li {
   padding: 0.5rem;
   border: none;
 }
+.add-image {
+  width: 364px;
+  height: 186px;
+  padding-bottom: 1rem;
+}
+.add-main-p {
+  max-width: 257px;
+  color: #2b225c;
+  padding-bottom: 2rem;
+}
+.add-main-p-one {
+  max-width: 343px;
+}
+.read-main {
+  font-size: 18px;
+  padding-left: 1rem;
+  color: #02bf8c;
+}
 .contact-btn {
   background-color: #2cca9f;
   color: #fff;
@@ -104,6 +122,7 @@ li {
   max-width: 718px;
   color: #2b225c;
   margin: auto;
+  margin-bottom: 1rem;
 }
 .comp-two {
   font-size: 17px;
@@ -131,6 +150,9 @@ li {
   margin: auto;
 }
 .jummp-main-p {
+  color: #2b225c;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 .static-outer {
   max-width: 924px;
@@ -235,6 +257,12 @@ li {
   text-align: center;
   align-items: center;
 }
+.is-main {
+  padding-bottom: 2rem;
+}
+.in-main {
+  padding-bottom: 2rem;
+}
 .quality-one {
   background: transparent linear-gradient(290deg, #2b225c 0%, #100727 100%) 0%
     0% no-repeat padding-box;
@@ -278,6 +306,7 @@ li {
 .glimpse-main-p-one {
   text-align: center;
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 .glimpse-main-p {
   text-align: center;
@@ -844,6 +873,11 @@ li {
     width: 326px;
     height: 279px;
   }
+  .add-image {
+    width: 256px;
+    height: 166px;
+    padding-bottom: 1rem;
+  }
   .need-inner {
     display: block;
     gap: 10px;
@@ -984,6 +1018,15 @@ li {
   }
   .react-p-one {
     font-size: 15px;
+  }
+  .add-image {
+    width: 196px;
+    height: 166px;
+    padding-bottom: 1rem;
+  }
+  .car-main {
+    background: #fcfbfc;
+    padding: 21px;
   }
   .who-main-image {
     margin: 1rem;
@@ -1165,6 +1208,10 @@ li {
   .app-main-image {
     width: 134px;
   }
+  .car-main {
+    background: #fcfbfc;
+    padding: 7px;
+  }
   .next-p-one {
     padding-top: 0rem;
     padding-bottom: 0rem;
@@ -1211,6 +1258,7 @@ li {
 
     gap: 8rem;
   }
+
   .is-main {
     text-align: center;
   }
@@ -1281,6 +1329,15 @@ li {
   .quality-one {
     margin-right: 0rem;
     margin-left: 0rem;
+  }
+  .add-image {
+    width: 183px;
+    height: 166px;
+    padding-bottom: 1rem;
+  }
+  .car-main {
+    background: #fcfbfc;
+    padding: 5px;
   }
   .start-inner {
     padding: 12px;
